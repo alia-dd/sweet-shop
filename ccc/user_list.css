@@ -1,0 +1,372 @@
+<style class="u-style">
+/* .u-body {
+  color: #ffffff;
+  background-color: #ffffff;
+} */
+.btn-primary,
+.tox .tox-dialog__footer .tox-button:last-child,
+.tox .tox-button {
+  --phoenix-btn-color: #fff;
+  --phoenix-btn-bg: #e95b19;
+  --phoenix-btn-border-color: transparent;
+  --phoenix-btn-hover-color: #fff;
+  --phoenix-btn-hover-bg: #e95b19;
+  --phoenix-btn-hover-border-color: rgba(0, 0, 0, 0.2);
+  --phoenix-btn-focus-shadow-rgb: 255, 255, 255;
+  --phoenix-btn-active-color: #fff;
+  --phoenix-btn-active-bg: #e95b19;
+  --phoenix-btn-active-border-color: rgba(0, 0, 0, 0.25);
+  --phoenix-btn-active-shadow: initial;
+  --phoenix-btn-disabled-color: #fff;
+  --phoenix-btn-disabled-bg: #e95b19;
+  --phoenix-btn-disabled-border-color: transparent;
+}
+.logtext {
+  color: #f34242;
+  font-size: small;
+  font-style: oblique;
+}
+.form-label-lg-in {
+  margin-bottom: 0.5rem;
+  font-size: 0.74rem;
+  position: relative;
+  left: 30%;
+}
+.u-section-2 {
+  background-image: none;
+}
+.u-section-2 .u-sheet-1 {
+  min-height: 777px;
+}
+.u-section-2 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.u-section-2 .u-image-1 {
+  min-height: 100vh;
+  background-image: url("images/b1182e8f-cee4-f571-00ff-b553b7f96898.jpg");
+  background-position: 50% 50%;
+}
+.u-section-2 .u-container-layout-1 {
+  padding: 0;
+}
+.u-section-2 .u-layout-cell-2 {
+  min-height: 599px;
+}
+.u-section-2 .u-container-layout-2 {
+  padding: 20px 90px;
+}
+.u-section-2 .u-text-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 0 auto 0 0;
+}
+.u-section-2 .u-line-1 {
+  width: 91px;
+  height: 3px;
+  transform-origin: left center;
+  margin: 10px auto 0 0;
+}
+.u-section-2 .u-form-1 {
+  height: 300px;
+  width: 490px;
+  margin: 35px 0 0;
+}
+.u-section-2 .u-input-1 {
+  background-image: none;
+}
+.u-section-2 .u-input-2 {
+  background-image: none;
+}
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 14px 30px 15px;
+}
+.u-section-2 .u-btn-2 {
+  border-style: none;
+  font-size: 1.125rem;
+  margin: 0px auto 0 0;
+  padding: 0;
+}
+.u-section-2 .u-btn-3 {
+  border-style: none;
+  align-self: center;
+  font-size: 1.125rem;
+  margin: 22px auto 0 0;
+  padding: 0;
+}
+.u-section-2 .u-text-2 {
+  margin: 33px auto 60px;
+}
+.u-section-2 .u-btn-4 {
+  border-style: none none solid;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 672px;
+  }
+  .u-section-2 .u-image-1 {
+    min-height: 494px;
+  }
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 494px;
+  }
+  .u-section-2 .u-line-1 {
+    width: 91px;
+  }
+  .u-section-2 .u-form-1 {
+    width: 390px;
+  }
+}
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 556px;
+  }
+  .u-section-2 .u-image-1 {
+    min-height: 662px;
+  }
+  .u-section-2 .u-container-layout-1 {
+    padding: 0;
+  }
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 557px;
+  }
+  .u-section-2 .u-form-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 845px;
+  }
+  .u-section-2 .u-image-1 {
+    min-height: 548px;
+  }
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 635px;
+  }
+  .u-section-2 .u-image-1 {
+    min-height: 345px;
+  }
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 557px;
+  }
+  .u-section-2 .u-line-1 {
+    margin-top: 14px;
+  }
+  .u-section-2 .u-form-1 {
+    margin-top: 31px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+.form-control:focus {
+  --phoenix-emphasis-bg: #fff;
+  --phoenix-body-color: #31374a;
+  color: var(--phoenix-body-color);
+  background-color: var(--phoenix-emphasis-bg);
+  border-color: #d45114;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0),
+    inset 0 0 0 30px var(--phoenix-emphasis-bg),
+    0 0 0 0.25rem rgba(212, 81, 20, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0),
+    inset 0 0 0 30px var(--phoenix-emphasis-bg),
+    0 0 0 0.25rem rgba(212, 81, 20, 0.25);
+}
+
+.alert-info {
+  --phoenix-alert-color: #fff;
+  --phoenix-alert-bg: #e95b19;
+  --phoenix-alert-border-color: #e95b19;
+  --phoenix-alert-link-color: #0097eb;
+  --phoenix-alert-padding-x: 1.5rem;
+  --phoenix-alert-padding-y: 1.5rem;
+  --phoenix-alert-margin-bottom: 1rem;
+  --phoenix-alert-border: 1px solid var(--phoenix-alert-border-color);
+  --phoenix-alert-border-radius: 0.5rem;
+  position: relative;
+  padding: var(--phoenix-alert-padding-y) var(--phoenix-alert-padding-x);
+  margin-bottom: var(--phoenix-alert-margin-bottom);
+  color: var(--phoenix-alert-color);
+  background-color: var(--phoenix-alert-bg);
+  border: var(--phoenix-alert-border);
+  border-radius: var(--phoenix-alert-border-radius);
+}
+.alert-danger {
+  --phoenix-alert-color: #fff;
+  --phoenix-alert-bg: #ec1f00;
+  --phoenix-alert-border-color: #ec1f00;
+  --phoenix-alert-link-color: #b81800;
+  --phoenix-alert-padding-x: 1.5rem;
+  --phoenix-alert-padding-y: 1.5rem;
+  --phoenix-alert-margin-bottom: 1rem;
+  --phoenix-alert-border: 1px solid var(--phoenix-alert-border-color);
+  --phoenix-alert-border-radius: 0.5rem;
+  position: relative;
+  padding: var(--phoenix-alert-padding-y) var(--phoenix-alert-padding-x);
+  margin-bottom: var(--phoenix-alert-margin-bottom);
+  color: var(--phoenix-alert-color);
+  background-color: var(--phoenix-alert-bg);
+  border: var(--phoenix-alert-border);
+  border-radius: var(--phoenix-alert-border-radius);
+}
+/* .alert {
+    --phoenix-alert-bg: transparent;
+    --phoenix-alert-padding-x: 1.5rem;
+    --phoenix-alert-padding-y: 1.5rem;
+    --phoenix-alert-margin-bottom: 1rem;
+    --phoenix-alert-color: inherit;
+    --phoenix-alert-border-color: transparent;
+    --phoenix-alert-border: 1px solid var(--phoenix-alert-border-color);
+    --phoenix-alert-border-radius: 0.5rem;
+    --phoenix-alert-link-color: inherit;
+    position: relative;
+    padding: var(--phoenix-alert-padding-y) var(--phoenix-alert-padding-x);
+    margin-bottom: var(--phoenix-alert-margin-bottom);
+    color: var(--phoenix-alert-color);
+    background-color: var(--phoenix-alert-bg);
+    border: var(--phoenix-alert-border);
+    border-radius: var(--phoenix-alert-border-radius);
+  } */
+</style>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.alert-info {
+  --phoenix-alert-color: #fff;
+  --phoenix-alert-bg: #e95b19;
+  --phoenix-alert-border-color: #e95b19;
+  --phoenix-alert-link-color: #0097eb;
+  --phoenix-alert-padding-x: 1.5rem;
+  --phoenix-alert-padding-y: 1.5rem;
+  --phoenix-alert-margin-bottom: 1rem;
+  --phoenix-alert-border: 1px solid var(--phoenix-alert-border-color);
+  --phoenix-alert-border-radius: 0.5rem;
+  position: relative;
+  padding: var(--phoenix-alert-padding-y) var(--phoenix-alert-padding-x);
+  margin-bottom: var(--phoenix-alert-margin-bottom);
+  color: var(--phoenix-alert-color);
+  background-color: var(--phoenix-alert-bg);
+  border: var(--phoenix-alert-border);
+  border-radius: var(--phoenix-alert-border-radius);
+}
+.alert-danger {
+  --phoenix-alert-color: #fff;
+  --phoenix-alert-bg: #ec1f00;
+  --phoenix-alert-border-color: #ec1f00;
+  --phoenix-alert-link-color: #b81800;
+  --phoenix-alert-padding-x: 1.5rem;
+  --phoenix-alert-padding-y: 1.5rem;
+  --phoenix-alert-margin-bottom: 1rem;
+  --phoenix-alert-border: 1px solid var(--phoenix-alert-border-color);
+  --phoenix-alert-border-radius: 0.5rem;
+  position: relative;
+  padding: var(--phoenix-alert-padding-y) var(--phoenix-alert-padding-x);
+  margin-bottom: var(--phoenix-alert-margin-bottom);
+  color: var(--phoenix-alert-color);
+  background-color: var(--phoenix-alert-bg);
+  border: var(--phoenix-alert-border);
+  border-radius: var(--phoenix-alert-border-radius);
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 10%;
+  right: 20%;
+  left: 20%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+</style>
